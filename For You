@@ -1,1 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>For You My Darling</title>
+                <style>
+                        body {
+                                        font-family: Arial, sans-serif;
+                                                    background-color: #ffccd5;
+                                                                text-align: center;
+                        }
 
+                                .container {
+                                                margin-top: 50px;
+                                }
+
+                                        .carta {
+                                                        width: 300px;
+                                                                    height: 200px;
+                                                                                background: #ff4d6d;
+                                                                                            border-radius: 10px;
+                                                                                                        display: flex;
+                                                                                                                                                                                                                            align-items: center;
+                                                                                                                                                                                                                                                                                                                                                            justify-content: center;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                    align-items: center;
+                                                                                                                                justify-content: center;
+                                                                                                                                            color: white;
+                                                                                                                                                        font-size: 18px;
+                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                                            position: relative;
+                                                                                                                                                                                                        transition: 0.3s;
+                                        }
+
+                                                .carta:hover {
+                                                                background: #ff1e47;
+                                                }
+
+                                                        .mensagem {
+                                                                        display: none;
+                                                                                    width: 80%;
+                                                                                                margin: 20px auto;
+                                                                                                            padding: 20px;
+                                                                                                                        background: white;
+                                                                                                                                    border-radius: 10px;
+                                                                                                                                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+                                                                                                                                                            text-align: left;
+                                                                                                                                                                        font-size: 16px;
+                                                                                                                                                                                    color: #333;
+                                                        }
+
+                                                                .fechar {
+                                                                                display: block;
+                                                                                            text-align: right;
+                                                                                                        cursor: pointer;
+                                                                                                                    font-size: 18px;
+                                                                                                                                color: red;
+                                                                                                                                            font-weight: bold;
+                                                                }
+
+                                                                        .pucca-garu {
+                                                                                        width: 150px;
+                                                                                                    margin-top: 20px;
+                                                                        }
+                                                                            </style>
+                                                                            </head>
+                                                                            <body>
+
+                                                                                <div class="container">
+                                                                                        <h1>For You My Darling</h1>
+                                                                                                <div class="carta" onclick="abrirCarta()">💌 Clique para abrir 💌</div>
+                                                                                                        
+                                                                                                                <div class="mensagem" id="mensagem">
+                                                                                                                            <span class="fechar" onclick="fecharCarta()">❌</span>
+                                                                                                                                        <p>
+                                                                                                                                                        Bom, sei perfeitamente dos seus medos, conheço cada receio seu, sei que você pode até confiar em mim mas não é 100%, não adianta negar pois é algo nítido e eu entendo perfeitamente. Mas saiba que independente de tudo, eu quero poder te acolher da melhor forma possível e quando eu te ver vou mostrar mais ainda como meu amor por você é intenso e genuíno.  
+                                                                                                                                                                        <br><br>
+                                                                                                                                                                                        Sinto muito se já pequei com você, mas eu sempre tento dar o meu melhor e tento não errar com você pois nunca quis te machucar. Eu te amo muito, tento expressar isso da melhor forma possível e peço desculpa de todas as vezes que já errei.  
+                                                                                                                                                                                                        <br><br>
+                                                                                                                                                                                                                        Luca, eu realmente te amo e quero fazer absolutamente tudo para que dessa vez nada dê errado. Claro que isso não dependerá apenas de mim, mas darei o meu máximo para que tudo possa dar certo e eu poder cuidar de você e das feridas existentes em você. Sei que quando nos vermos será algo incrível e eu irei te mostrar como meu sentimento por você sempre foi sincero.  
+                                                                                                                                                                                                                                        <br><br>
+                                                                                                                                                                                                                                                        Espero que eu possa poder te ter de fato por completo, sem nenhum receio ou algo do tipo, até porque eu entendo você e sei exatamente o que passa na sua mente e o que seu coração pode sentir.  
+                                                                                                                                                                                                                                                                        <br><br>
+                                                                                                                                                                                                                                                                                        Mas apenas saiba, eu te amo muito. Independente de tudo, é com você que eu quero montar um futuro.  
+                                                                                                                                                                                                                                                                                                        <br><br>
+                                                                                                                                                                                                                                                                                                                        **Eu te amo, Luca.** ❤️
+                                                                                                                                                                                                                                                                                                                                    </p>
+                                                                                                                                                                                                                                                                                                                                            </div>
+
+                                                                                                                                                                                                                                                                                                                                                    <img class="pucca-garu" src="https://i.pinimg.com/originals/bf/76/5e/bf765e0b1c07a6ee3d43266741fb6398.gif" alt="Pucca e Garu">
+                                                                                                                                                                                                                                                                                                                                                        </div>
+
+                                                                                                                                                                                                                                                                                                                                                            <script>
+                                                                                                                                                                                                                                                                                                                                                                    function abrirCarta() {
+                                                                                                                                                                                                                                                                                                                                                                                    document.getElementById('mensagem').style.display = 'block';
+                                                                                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                                                                                            function fecharCarta() {
+                                                                                                                                                                                                                                                                                                                                                                                            document.getElementById('mensagem').style.display = 'none';
+                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                </script>
+
+                                                                                                                                                                                                                                                                                                                                                                                </body>
+                                                                                                                                                                                                                                                                                                                                                                                </html>
+
+                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                        }
+                                                                }
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
